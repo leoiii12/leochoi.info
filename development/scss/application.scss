@@ -1,0 +1,52 @@
+// This project utilize the flex grid of founcation framework which is more flexible than the bootstrap's grid system
+@import "bootstrap";
+@import "foundation";
+
+body {
+  padding-top: $navbar-height + 30;
+}
+
+hr {
+  max-width: 1000px;
+  width: 80%;
+}
+
+$box-size: 10px;
+
+hr:after {
+  position: absolute;
+  width: $box-size;
+  height: $box-size;
+  content: "";
+  margin-top: - $box-size / 2;
+  margin-left: - $box-size / 2;
+  left: 50%;
+  background-color: $gray;
+  @include rotate(45deg);
+}
+
+h2, h3, h4 {
+  width: 100%;
+  text-align: center;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+@media (min-width: $screen-md) {
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+}
+
+.navbar {
+  border-top: 3px solid $gray;
+}
+
+footer {
+  .label {
+    line-height: 20px;
+  }
+}

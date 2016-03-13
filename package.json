@@ -1,0 +1,19 @@
+{
+  "name": "PersonalWebsite",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-htmlmin": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "shelljs": "*",
+    "live-server": "*"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "PersonalWebsite",
+  "private": "true",
+  "devDependencies": {},
+  "dependencies": {
+    "angular": "angular#*",
+    "ngstorage": "ngstorage#*",
+    "angular-filter": "angular-filter#*",
+    "angular-ui-router": "angular-ui-router#*",
+    "bootstrap-sass": "bootstrap-sass#*",
+    "angular-bootstrap": "angular-bootstrap#*",
+    "foundation-sites": "foundation-sites#*",
+    "angular-animate": "angular-animate#*"
+  }
+}
