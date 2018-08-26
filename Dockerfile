@@ -2,6 +2,9 @@ FROM node:10-alpine as sdk
 
 WORKDIR /home/leochoi/
 
+RUN apk update && apk upgrade && \
+    apk add --no-cache bash git openssh
+
 RUN npm install -g gulp
 RUN npm install -g bower
 
