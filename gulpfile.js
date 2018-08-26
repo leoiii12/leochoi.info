@@ -53,6 +53,7 @@ var liverServerOptions = {
 // Default
 
 gulp.task("default", ["watch", "styles", "libraries", "scripts", "pages", "index"]);
+gulp.task("build", ["styles", "libraries", "scripts", "pages", "index"]);
 
 // Private functions : default
 
